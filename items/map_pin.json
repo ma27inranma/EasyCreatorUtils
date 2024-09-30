@@ -9,7 +9,8 @@
     },
     "components": {
       "minecraft:icon": "map_pin",
-      "minecraft:custom_components": ["sf:component-item-map_pin"]
+      "minecraft:custom_components": ["sf:component-item-map_pin"],
+      "minecraft:can_destroy_in_creative": false
     }
   }
 }
