@@ -1,0 +1,10 @@
+hotbar saver
+  with colored floppy disks
+  load:
+    on place in left top of inventory slot
+    remove floppy disk
+  save:
+    offhand
+  name: {color} Ender Floppy
+  workspace:
+    ~ ~1 ~
