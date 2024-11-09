@@ -16,6 +16,7 @@ export function vector3FromString(stringVec){
   }
 }
 
+
 /**
  * @param {MC.Vector3} vector3
  */
