@@ -14,8 +14,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Compress to .mcpack file
-        run: zip -r behavior.mcpack ./*
+      - name: Compress to .zip file
+        run: zip -r behavior ./*
+
+      - name: Rename to .mcpack
+      - run: mv behavior.zip behavior.mcpack
 
       - name: Upload MCPACK artifact
         uses: actions/upload-artifact@v3
