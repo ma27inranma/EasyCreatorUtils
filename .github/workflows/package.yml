@@ -18,7 +18,7 @@ jobs:
         run: zip -r behavior ./*
 
       - name: Rename to .mcpack
-      - run: mv behavior.zip behavior.mcpack
+        run: mv behavior.zip behavior.mcpack
 
       - name: Upload MCPACK artifact
         uses: actions/upload-artifact@v3
